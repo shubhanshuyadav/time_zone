@@ -8,8 +8,6 @@ function getTimeByZone(){
     document.getElementsByTagName('h3')[i].innerHTML=time;
     i++;
   }
-  
 }
-
 
 setInterval(getTimeByZone,1000);
